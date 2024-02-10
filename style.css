@@ -198,6 +198,12 @@ body {
     font-size: 16px;
     font-weight: 500;
     pointer-events: none;
+    transition: .5s ease;
+}
+
+.input-box input:focus~label,
+.input-boxinput:valid~label {
+    top: -5px;
 }
 .input-box .icon{
     position: absolute;
